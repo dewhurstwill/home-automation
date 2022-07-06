@@ -36,6 +36,7 @@ Tools
 - [ ] Short url expander
 - [ ] QR Code Generator
 - [ ] Jokes
+- [ ] Facts
 - [ ] Current stock price/stock history
 - [ ] Recipe API
 - [ ] Random number/string generator
