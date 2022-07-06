@@ -1,5 +1,11 @@
 # home-automation
 
+Languages/Framworks
+- [ ] Javascript/Typescript (NodeJs/Deno)
+- [ ] Go
+- [ ] Rust
+- [ ] Python
+
 Core Services
 - [ ] Gateway/Aggregation API
 - [ ] Auth Service
