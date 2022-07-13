@@ -10,6 +10,10 @@ Core Services
 - [ ] Gateway/Aggregation API
 - [ ] Auth Service
 
+Dev Infra
+- [x] Redis Server
+- [x] MongoDB Server
+
 Core Infra
 - [ ] K3S Cluster
 - [ ] Redis Server
@@ -17,7 +21,7 @@ Core Infra
 - [ ] Private Container Registry
 
 Tools 
-- [ ] Current IP API
+- [x] [Current IP API](https://github.com/dewhurstwill/home-automation-ip-service)
 - [ ] GeoIP API
 - [ ] DNS Lookup API
 - [ ] PostCode/Address Lookup API
@@ -53,5 +57,5 @@ Home Lab/Selfhost Services
 - [ ] Privatebin
 - [ ] Searxng
 - [ ] PiHole
-- [ ] NginxProxyManager
+- [x] NginxProxyManager
 - [ ] Status Page
