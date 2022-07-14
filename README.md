@@ -37,8 +37,8 @@ Tools
 - [ ] Simple poll (Using websockets for interactive)
 - [ ] Time/Date API
 - [ ] Virus total
-- [ ] Short url expander
-- [ ] QR Code Generator
+- [x] [Short url expander](https://github.com/dewhurstwill/home-automation-urlexpander-service)
+- [x] [QR Code Generator](https://github.com/dewhurstwill/home-automation-qrcode-service)
 - [ ] Jokes
 - [ ] Facts
 - [ ] Current stock price/stock history
