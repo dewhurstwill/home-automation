@@ -31,7 +31,7 @@ Tools
 - [ ] Exchange Rate
 - [ ] Speedtest API
 - [ ] URL Shortener
-- [ ] Password Generator
+- [x] [Password Generator](https://github.com/dewhurstwill/home-automation-password-service)
 - [ ] Azure tenant lookup
 - [ ] File sharing
 - [ ] Simple poll (Using websockets for interactive)
