@@ -30,7 +30,7 @@ Tools
 - [ ] Measurement Converter API
 - [ ] Exchange Rate
 - [ ] Speedtest API
-- [ ] URL Shortener
+- [x] [URL Shortener](https://github.com/dewhurstwill/home-automation-urlshortener-service)
 - [x] [Password Generator](https://github.com/dewhurstwill/home-automation-password-service)
 - [ ] Azure tenant lookup
 - [ ] File sharing
