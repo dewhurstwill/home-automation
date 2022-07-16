@@ -23,7 +23,7 @@ Core Infra
 Tools 
 - [x] [Current IP API](https://github.com/dewhurstwill/home-automation-ip-service)
 - [x] [GeoIP API](https://github.com/dewhurstwill/home-automation-ip-service)
-- [ ] DNS Lookup API
+- [x] [DNS Lookup API](https://github.com/dewhurstwill/home-automation-dnsresolver-service)
 - [ ] PostCode/Address Lookup API
 - [ ] RegPlate Lookup API
 - [ ] Hashing API
