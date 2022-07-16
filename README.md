@@ -45,7 +45,7 @@ Tools
 - [ ] Recipe API
 - [ ] Random number/string generator
 - [ ] Analytics API (Tracking which APIs are used the most etc)
-- [ ] Weather API
+- [x] [Weather API](https://github.com/dewhurstwill/home-automation-weather-service)
 
 Home Automation Integration/Federation
 - [ ] Meross
