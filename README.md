@@ -56,6 +56,6 @@ Home Automation Integration/Federation
 Home Lab/Selfhost Services
 - [ ] Privatebin
 - [ ] Searxng
-- [ ] PiHole
+- [x] AdGuardHome
 - [x] NginxProxyManager
 - [ ] Status Page
