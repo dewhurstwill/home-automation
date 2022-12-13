@@ -1,0 +1,85 @@
+version: '3.1'
+
+services:
+  current-ip:
+    container_name: home_automation-current-ip
+    image: dewhurstwill/ha-current-ip
+    restart: always
+    environment:
+      - HOST=${CURRENT_IP_HOST}
+      - SERVER=${CURRENT_IP_SERVER}
+      - DNS=${CURRENT_IP_DNS}
+      - TENANT_ID=${CURRENT_IP_TENANT_ID}
+      - CLIENT_ID=${CURRENT_IP_CLIENT_ID}
+      - CLIENT_SECRET=${CURRENT_IP_CLIENT_SECRET}
+      - SUBSCRIPTION_ID=${CURRENT_IP_SUBSCRIPTION_ID}
+      - RESOURCE_GROUP_NAME=${CURRENT_IP_RESOURCE_GROUP_NAME}
+      - DNS_ZONE=${CURRENT_IP_DNS_ZONE}
+    ports:
+      - ${CURRENT_IP_PORT}:5000
+  dns-resolver:
+    container_name: home_automation-dns-resolver
+    image: dewhurstwill/ha-dns-resolver
+    restart: always
+    environment:
+      - HOST=${DNS_RESOLVER_HOST}
+      - SERVER=${DNS_RESOLVER_SERVER}
+    ports:
+      - ${DNS_RESOLVER_PORT}:5001
+  password-gen:
+    container_name: home_automation-password-gen
+    image: dewhurstwill/ha-password-gen
+    restart: always
+    environment:
+      - HOST=${PASSWORD_GEN_HOST}
+      - SERVER=${PASSWORD_GEN_SERVER}
+    ports:
+      - ${PASSWORD_GEN_PORT}:5002
+  qrcode:
+    container_name: home_automation-qrcode
+    image: dewhurstwill/ha-qrcode
+    restart: always
+    environment:
+      - HOST=${QRCODE_HOST}
+      - SERVER=${QRCODE_SERVER}
+    ports:
+      - ${QRCODE_PORT}:5003
+  redis:
+    container_name: home_automation-redis
+    image: redis:alpine
+    restart: always
+    ports:
+      - 6379:6379
+  url-expander:
+    container_name: home_automation-url-expander
+    image: dewhurstwill/ha-url-expander
+    restart: always
+    environment:
+      - HOST=${URL_EXPANDER_HOST}
+      - SERVER=${URL_EXPANDER_SERVER}
+      - ONESIMPLEAPI_KEY=${URL_EXPANDER_ONESIMPLEAPI_KEY}
+    ports:
+      - ${URL_EXPANDER_PORT}:5004
+    depends_on:
+      - redis
+  url-shortener:
+    container_name: home_automation-url-shortener
+    image: dewhurstwill/ha-url-shortener
+    restart: always
+    environment:
+      - HOST=${URL_SHORTENER_HOST}
+      - SERVER=${URL_SHORTENER_SERVER}
+    ports:
+      - ${URL_SHORTENER_PORT}:5005
+  weather:
+    container_name: home_automation-weather
+    image: dewhurstwill/ha-weather
+    restart: always
+    environment:
+      - HOST=${WEATHER_HOST}
+      - SERVER=${WEATHER_SERVER}
+      - OPENWEATHERAPI_KEY=${WEATHER_OPENWEATHERAPI_KEY}
+    ports:
+      - ${WEATHER_PORT}:5006
+    depends_on:
+      - redis
