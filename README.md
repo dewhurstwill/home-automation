@@ -24,6 +24,7 @@ Tools
 - [x] [Current IP API](https://github.com/dewhurstwill/home-automation-ip-service)
 - [x] [GeoIP API](https://github.com/dewhurstwill/home-automation-ip-service)
 - [x] [DNS Lookup API](https://github.com/dewhurstwill/home-automation-dnsresolver-service)
+- [x] [Email Service](https://github.com/dewhurstwill/email-service)
 - [ ] PostCode/Address Lookup API
 - [ ] RegPlate Lookup API
 - [ ] Hashing API
