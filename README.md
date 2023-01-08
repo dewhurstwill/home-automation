@@ -59,4 +59,4 @@ Home Lab/Selfhost Services
 - [ ] Searxng
 - [x] AdGuardHome
 - [x] NginxProxyManager
-- [ ] Status Page
+- [x] Status Page
