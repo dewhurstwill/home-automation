@@ -15,7 +15,8 @@ Dev Infra
 - [x] MongoDB Server
 
 Core Infra
-- [ ] K3S Cluster
+- [ ] ~~K3S Cluster~~
+- [x] MiniKube
 - [ ] Redis Server
 - [ ] MongoDB Server
 - [ ] Private Container Registry
