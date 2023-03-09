@@ -61,3 +61,4 @@ Home Lab/Selfhost Services
 - [x] AdGuardHome
 - [x] NginxProxyManager
 - [x] Status Page
+- [x] FileRun
