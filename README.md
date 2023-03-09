@@ -56,8 +56,8 @@ Home Automation Integration/Federation
 - [ ] Unifi
 
 Home Lab/Selfhost Services
-- [ ] Privatebin
-- [ ] Searxng
+- [x] Privatebin
+- [x] Searxng
 - [x] AdGuardHome
 - [x] NginxProxyManager
 - [x] Status Page
